@@ -1,1 +1,8 @@
+image: ubuntu
+
+tasks:
+  - init: |
+      sudo apt update
+      sudo apt install -y plink python3-pip unzip wget
+      pip install pandas matplotlib seaborn
 
